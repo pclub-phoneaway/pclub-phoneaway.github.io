@@ -1,48 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PhoneAway App</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="main.css">
-    <link rel="shortcut icon" href="image/icon.png">
+  <title>PhoneAway</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
-<body class="container">
-    <div class="row bar">
-        <div class="bar1"><strong>PROGRAMMING CLUB SUMMER PROJECT</strong></div>
-    </div>
+<body>
+<header class="row bar">
 
+  <h1 class="col-md-4 bar1">Programming Club</h1>
+    <nav class="col-md-8 text-right">
+      <p>Summer Project 2016</p>
+      <p>IIT Kanpur</p>
+    </nav>
 
-    <div class="row">
-        <div class="col-md-3 am">
-            <img class="img-responsive" src="image/icon.png" alt="phoneway icon">
+</header>
+<section class="jumbotron">
+<div class="container">
+  <div class="row text-center">
+    <h2>PhoneAway</h2>
+      <h3>Android App</h3>
+      <h4>Version 1.0.0</h4>
+  </div>
+
+  </div>
+</section>
+<div class="row bot">
+        <div class="col-md-3 p">
+            <img class="img-responsive" src="images/vipuly.jpg" alt="Vipul Yadav">
+            <h5>
+            VIPUL YADAV
+            </h5>
+            <h7>
+            (B.Tech. CSE)
+            </h7>
         </div>
-        <div class="col-md-9">
-            <div>
-                <h3>Work Done So Far</h3>
-                <ul>
-
-                        <li>Till last evaluation our front and back end were on two different apps. Now, we have  integrated our front and back end in a single app.</li>
-                        <li>While working with the app, we found that the app didn't work if the phone goes to sleep mode. So, to make the app run even in sleep mode we tried implementing wakelock and wakefulbroadcast for the task and found wakelock to be more simpler and useful. And now the app is working even when the phone is in sleep mode.   </li>
-                        <li>We have successfully implemented the missed call feature of the app which allows the app to send the missed calls to another phone when requested via a passcode. And since large messages cannot be sent in a single message, we implemented multi parts message to complete the task.</li>
-                        <li>We tried Shared Preferences and Database to store the input such as passcode that the user provides for differnt applications and finally implemented it using Shared preferences as it was much easier and relevant than database. </li>
-                        <li>The app now allows user to enable or disable different options.</li>
-                        <li>We have also successfully implemented the IMEI, alarm ringer and profile changer features in the app.</li>
-                        <li>We are also adding a feature to the app which will show all the actions taken by the app in a list and are almost done with it.</li>
-                        <li>The app also shows a notification whenever the app responds to a message. As soon as the list is integrated into the app, we will connect the notification to it.  </li>
-                        <li>We have also worked on detecting SIM change feature which will send a message to a predefined number about the new phone number, whenever the SIM is changed but are having some difficulties in implementing it.</li>
-
-                    </ul>
-                <h3>Future Plans</h3>
-                    <ul>
-                        <li>Adding support for android 6.0.</li>
-                        <li>We are also looking for differnt methods to password protect our app. </li>
-                        <li>Most of the things that we proposed to implement in our app have been done so now we will try to improve on whatever we have done till now.
-                        </li>
-                    </ul>
-            </div>
+        <div class="col-md-3 p">
+            <img class="img-responsive" src="images/anubhavm.jpg" alt="Anubhav Mittal">
+            <h5>
+            ANUBHAV MITTAL
+            </h5>
+            <h7>
+            (B.Tech. EE)
+            </h7>
+        </div>
+        <div class="col-md-3 p">
+            <img class="img-responsive" src="images/anshulc.jpg" alt="Anshul Chanpura">
+            <h5>
+            ANSHUL CHANPURA
+            </h5>
+            <h7>
+            (B.Tech. EE)
+            </h7>
+        </div>
+        <div class="col-md-3 p">
+            <img class="img-responsive" src="images/dushyant.jpg" alt="Dushyant Kumar">
+            <h5>
+            DUSHYANT KUMAR
+            </h5>
+            <h7>
+            (B.Tech. CSE)
+            </h7>
         </div>
     </div>
+<footer class="container">
+<div class="row">
+   <p class="col-sm-4">&copy; 2016 VADA Inc.</p>
+   <div class="col-sm-6"></div>
+   <div class="col-sm-1">
+        <a href="https://www.facebook.com/VADA-Inc-533505536851154/?ref=aymt_homepage_panel">
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
+        </a>
+   </div>
+   <div class="col-sm-1">
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
+</div>
+</footer>
 
 </body>
 </html>

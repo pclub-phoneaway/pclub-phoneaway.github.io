@@ -1,19 +1,120 @@
-*{
-    font-family: 'PT Sans', sans-serif;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
 }
+
 .bar{
-    background-color:#333333;
-    display: -webkit-flex;
-    display: flex;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
+  background-image: url(http://sf.co.ua/15/12/wallpaper-1bae1.jpg);
+  background-size: cover;
+  padding: 12px 00;
+  text-shadow: 0.25px 0.25px 0.25px background-color;
 }
-.am{
-    padding-top: 50px;
-}
+
 .bar1{
-    color: white;
-    padding-right: 50px;
+  display: flex;
+  padding-left: 50px;
 }
+.p{
+    text-align: center !important;
+}
+header .row{
+  font-size: 18px;
+  display: ruby;
+  color: white;
+}
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+  font-size: 20px;
+  padding-top: 12px;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://cdn.vectorstock.com/i/composite/20,30/phone-a-background-vector-1022030.jpg');
+  background-size: contain;
+  color: #fff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 2px;
+  color :	#002387 ;
+  text-shadow: 0.25px 0.25px 0.25px white;
+}
+
+.jumbotron h3 {
+  margin: 0 0 10px;
+  color:	#002387;
+}
+
+.jumbotron h4 {
+  margin: 0 0 10px;
+  color: 	#002387;
+}
+section .row img {
+  margin: 0 0 30px;
+  width: 35%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color:black;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: black;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 50px 0;
+}
+
+
+
+footer ul {
+  list-style: none;
+  background: greyish white;
+}
+
+footer li img {
+  allign-items: right;
+  width: 32px;
+  height: 32px;
+
 }
