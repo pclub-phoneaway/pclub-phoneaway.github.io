@@ -16,6 +16,7 @@ body {
 }
 .p{
     text-align: center !important;
+    align-content: center !important;
 }
 header .row{
   font-size: 18px;
